@@ -9,7 +9,7 @@ import threading
 import time
 from collections import deque
 
-PROG_NAME = "Timestamp Backup v1.1"
+PROG_NAME = "Timestamp Backup v1.2"
 SETTINGS_FILE = Path("timestamp-settings.json")
 
 class TimestampBackup:
@@ -35,7 +35,7 @@ class TimestampBackup:
         self.log_status("Timestamp Backup bereit!")
 
     def setup_ui(self):
-        header = tk.Label(self.root, text="💾 Timestamp Backup Tool v1.1", font=("Arial", 16, "bold"), fg="#2E5C8A")
+        header = tk.Label(self.root, text="💾 Timestamp Backup Tool v1.2", font=("Arial", 16, "bold"), fg="#2E5C8A")
         header.pack(pady=12)
 
         folder_frame = tk.LabelFrame(self.root, text="Ordner", font=("Arial", 11, "bold"))
